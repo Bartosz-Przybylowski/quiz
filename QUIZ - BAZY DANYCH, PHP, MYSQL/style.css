@@ -1,0 +1,156 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styl dla całego ciała */
+  body {
+      
+      background-color: #f0f4f8;
+      color: #333;
+      padding: 20px;
+      display: flex; /* Włącza flexbox dla ciała strony */
+      justify-content: center; /* Wyśrodkowanie w poziomie */
+      align-items: center; /* Wyśrodkowanie w pionie */
+      min-height: 100vh; /* Zapewnia, że ciało strony zajmuje co najmniej wysokość okna przeglądarki */
+      margin: 0;
+  }
+  
+  /* Nagłówki */
+  h2 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  h3 {
+      color: #34495e;
+      text-align: center;
+      margin: 10px 0;
+  }
+  
+  /* Formularz */
+  form {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin: 0 auto;
+      max-width: 800px;
+  }
+  
+  /* Fieldset */
+  fieldset {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 15px;
+  }
+  
+  /* Legend */
+  legend {
+      font-weight: bold;
+      color: #2980b9;
+  }
+  
+  /* Etykiety */
+  label {
+      display: block;
+      margin: 10px 0;
+  }
+  
+  /* Radio button */
+  input[type="radio"] {
+      margin-right: 10px;
+  }
+  
+  /* Przycisk do wysyłania */
+  input[type="submit"] {
+      background-color: #2980b9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 12px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      display: block;
+      width: 100%;
+      font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+      background-color: #1a5276;
+      transform: translateY(-2px);
+  }
+  
+  /* Komunikaty o błędach */
+  .error-message {
+      color: #e74c3c;
+      font-size: 0.9em;
+  }
+  
+  /* Linki */
+  a {
+      display: inline-block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #2980b9;
+      transition: color 0.3s;
+  }
+  
+  a:hover {
+      color: #1a5276;
+  }
+  
+  /* Styl dla poziomów trudności */
+  #latwy, #sredni, #trudny {
+      width: 200px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10%;
+      margin: 10px auto;
+      color: white;
+      font-weight: bold;
+      transition: transform 0.3s;
+      flex-wrap: wrap; /* Zawijanie poziomów w razie potrzeby */
+    margin-top: 20px;
+  }
+  
+  #latwy {
+      background-color: #37db37;
+  }
+  
+  #sredni {
+      background-color: #f39c12;
+  }
+  
+  #trudny {
+      background-color: #c0392b;
+  }
+  
+  #latwy:hover, #sredni:hover, #trudny:hover {
+      transform: scale(1.05);
+  }
+
+  input[type="button"] {
+      background-color: #2980b9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 12px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      display: block;
+      width: 100%;
+      font-size: 16px;
+  }
+  
+  input[type="button"]:hover {
+      background-color: #1a5276;
+      transform: translateY(-2px);
+  }
